@@ -3,6 +3,8 @@ def add(x,y):
     return x+y
 # Perform subtraction
 def subtract(x,y):
+	if x < y:
+		return x
     return x-y
 # Perform multiplication
 def multiply(x,y):
@@ -12,8 +14,3 @@ def multiply(x,y):
 def divide(x,y):
     return x/y
 
-<<<<<<< HEAD
-=======
-def square(x):
-	return x*x
->>>>>>> BugFix03
