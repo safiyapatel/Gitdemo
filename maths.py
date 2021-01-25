@@ -3,7 +3,7 @@ def add(x,y):
     return x+y
 # Perform subtraction
 def subtract(x,y):
-    pass
+    return x-y
 # Perform multiplication
 def multiply(x,y):
     return x*y
